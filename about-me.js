@@ -4,7 +4,7 @@ const container = document.querySelector(".content")
 const url = 'https://exam1.local/wp-json/wp/v2/posts/36'
    
 async function fetchData() {
-    const response = await fetch(url)
+    const response = await fetch(url, {mode: 'no-cors'})
     const json = await response.json()
 
     console.log(json)
