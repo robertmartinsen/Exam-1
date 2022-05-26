@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+<body>
+    <div class="headerlogo">
+        <a href="/html/index.html"><img class="logo" src="/Exam-1-assets/Logo.png"></a>
+    </div>
+    <nav>
+        <div class="navigation">
+            <ul class="nav-links">
+                <li><a href="/html/index.html">Home</a></li>
+                <li><a href="/html/about-me.html">About Me</a></li>
+                <li><a href="/html/blog-posts.html">Blog Posts</a></li>
+                <li><a href="/html/contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="header">
+        <div class="contact-txt">
+            <h1>Contact Me</h1>
+            <p>Do you have any questions regarding fitness, nutrition, lifestyle or mindset? Fill in the form and I will respond to you ASAP.</p>
+        </div>
+    </section>
+    <section class="contact-form">
+        <form onsubmit="event.preventDefault(); validateForm();">
+            <div class="form-group">
+                <hr/>
+                <label for="name">Name</label>
+                <input type="text" class="name" placeholder="Your Name..."/>
+                <small class="error"></small>
+
+                <label for="email">Email</label>
+                <input type="text" class="email" placeholder="Your email..."/>
+                <small class="error"></small>
+
+                <label for="subject">Subject</label>
+                <input type="text" class="subject" placeholder="Type in subject..."/>
+                <small class="error"></small>
+
+                <label for="message">Message</label>
+                <textarea class="message" placeholder="Type in your message..." rows="6"></textarea>
+                <small class="error"></small>
+                <hr/>
+            </div>
+            <button>Submit Message</button>
+            <p class="complete"></p>
+        </form>
+    </section>
+</body>
+<script src="/contact.js"></script>
+</html>
