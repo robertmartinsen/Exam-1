@@ -13,11 +13,10 @@
 }
 
 .headerlogo{
-   height: 14vh;
    display: flex;
-   text-align: center;
    justify-content: center;
-   background: #49bbdd;
+   text-align: center;
+   background-color: rgba(73, 187, 221, 0.8);
 }
 
 .navigation{
@@ -25,15 +24,16 @@
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #49bbdd;
+    background-color: rgba(73, 187, 221, 0.8);
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
 .nav-links{
     display: flex;
     justify-content: space-around;
-    width: 75%;
+    width: 85%;
 }
 
 .nav-links li{
@@ -50,11 +50,11 @@
 .nav-links li a{
     transition: all 0.3s ease 0s;
     padding: 10px 12px;
-    border-radius: 20px;
+    border-radius: 3px;
 }
 
 .nav-links li a:hover{
-    color: rgb(61, 61, 61);
+    color: rgb(0, 0, 0);
     background: #43A5DC;
 }
 
@@ -138,4 +138,53 @@ button:hover{
     color: black;
     font-weight: bold;
     font-size: 24px;
+}
+
+@media (max-width: 480px){
+    .logo{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+
+    .nav-links{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .nav-links a{
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+    .contact-txt{
+        font-size: 14px;
+        padding: 50px;
+    }
+    
+    .form-group label{
+        display: block;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        color: rgb(83, 83, 83);
+        margin-bottom: 5px;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        outline: none;
+        resize: none;
+        border: none;
+        border-bottom: 1px solid black;
+        font-size: 14px;
+    }
+
 }
