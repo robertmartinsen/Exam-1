@@ -1,3 +1,9 @@
+const myUrl = new URL("https://www.muellerfitness.com");
+
+myUrl.searchParams.append("id", "55");
+myUrl.searchParams.append("title", "Best Biceps Exercises");
+
+console.log(myUrl.search);
 
 const container = document.querySelector(".content")
 

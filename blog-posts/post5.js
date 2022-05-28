@@ -1,3 +1,9 @@
+const myUrl = new URL("https://www.muellerfitness.com");
+
+myUrl.searchParams.append("id", "13");
+myUrl.searchParams.append("title", "How to Build Muscle Faster and Easier");
+
+console.log(myUrl.search);
 
 const container = document.querySelector(".content")
 

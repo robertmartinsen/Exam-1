@@ -1,3 +1,9 @@
+const myUrl = new URL("https://www.muellerfitness.com");
+
+myUrl.searchParams.append("id", "23");
+myUrl.searchParams.append("title", "How to Boost Testosterone Naturally");
+
+console.log(myUrl.search);
 
 const container = document.querySelector(".content")
 

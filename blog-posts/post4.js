@@ -1,3 +1,9 @@
+const myUrl = new URL("https://www.muellerfitness.com");
+
+myUrl.searchParams.append("id", "32");
+myUrl.searchParams.append("title", "Best Back Exercises");
+
+console.log(myUrl.search);
 
 const container = document.querySelector(".content")
 

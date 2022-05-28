@@ -287,6 +287,14 @@ section .card, .image img{
         object-fit: cover;
     }
 
+    .title{
+        font-size: 18px;
+    }
+
+    .text{
+        font-size: 14px;
+    }
+
     .intro{
         display: none;
     }
