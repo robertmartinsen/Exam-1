@@ -63,6 +63,7 @@ body{
 .nav-links li a:hover{
     color: rgb(61, 61, 61);
     background: #43A5DC;
+    border-radius: 20px;
 }
 
 .header{
@@ -152,7 +153,7 @@ section .card, .image img{
     padding: 20px 50px;
     font-size: 20px;
     position: relative;
-    background: #43A5DC;
+    background: #066fd1;
     color: black;
     border-radius: 50px;
     margin: 20px;
@@ -168,7 +169,7 @@ section .card, .image img{
     text-decoration: none;
     padding: 20px 50px;
     font-size: 20px;
-    background: #43A5DC;
+    background: #066fd1;
     color: black;
     border-radius: 50px;
     margin: 20px;
