@@ -7,7 +7,7 @@ console.log(myUrl.search);
 
 const container = document.querySelector(".content")
 
-const url = 'http://exam1.local/wp-json/wp/v2/posts/23'
+const url = 'https://exam1.local/wp-json/wp/v2/posts/23'
    
 async function fetchData() {
     const response = await fetch(url)
