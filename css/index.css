@@ -312,7 +312,8 @@ section .card, .image img{
     }
 
     .h-text{
-        width: 1000px;
+        text-align: center;
+        padding-left: 300px;
     }
 
 
