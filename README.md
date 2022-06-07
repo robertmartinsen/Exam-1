@@ -1,6 +1,5 @@
 # Exam-1
 
-<<<<<<< HEAD
 ![image](/Exam-1-assets/Exam-1.png)
 
 ## Description
@@ -13,28 +12,6 @@ The objective was to make a blog and fetch data from wordpress and insert the da
 
 - [Javascript]
 - [HTML]
-=======
-![image]()
-
-A simple overview of the use/purpose of the project.
-
-## Description
-
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
-
-## Built With
-
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
->>>>>>> 260af2b1dc8ee6166774d5e3f54ab49d3588c209
 
 ## Getting Started
 
