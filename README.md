@@ -22,7 +22,7 @@ This is where you list how to get the project started. It typically just include
 1. Clone the repo:
 
 ```bash
-gh repo clone robertmartinsen/csm-eksamen
+gh repo clone robertmartinsen/Exam-1
 ```
 
 2. Install the dependencies:
